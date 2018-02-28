@@ -29,8 +29,7 @@ public class audioSourceScript : MonoBehaviour {
 			WWW www = new WWW ("file://" + url + obj + ".mp3");
 			yield return www;
 			au.clip = www.GetAudioClip ();
-			print (url + obj + ".mp3");
-			//au.Play ();
+			au.Play ();
 
 		}
 

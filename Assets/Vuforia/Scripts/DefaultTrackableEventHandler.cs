@@ -14,7 +14,7 @@ using Vuforia;
 ///     A custom handler that implements the ITrackableEventHandler interface.
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler {
-    // public AudioSource audioSource;
+    //public AudioSource audioSource;
     // public Button button;
     // public Sprite s1, s2;
     #region PRIVATE_MEMBER_VARIABLES
@@ -89,6 +89,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         audioComponent.enabled = true;
 
+        
     }
 
     protected virtual void OnTrackingLost () {
@@ -117,6 +118,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             component.enabled = false;
 
         audioComponent.enabled = false;
+        
 
     }
 

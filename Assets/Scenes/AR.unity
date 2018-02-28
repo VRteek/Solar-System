@@ -304,9 +304,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &23693411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -985,6 +985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &134208770
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1529,9 +1530,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &301363326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,6 +1584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &344083091
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1738,7 +1740,7 @@ Canvas:
   m_GameObject: {fileID: 350526192}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 225469631}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2181,9 +2183,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &543461625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2477,9 +2479,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &686285781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2628,9 +2630,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &731625106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2651,7 +2653,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 777386881}
-  - component: {fileID: 777386882}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2673,17 +2674,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &777386882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 777386880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d922d2a069d86704bac2299b2624339e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!21 &788475063
 Material:
   serializedVersion: 6
@@ -2748,6 +2738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &803618134
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2954,6 +2945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &867254943
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6632,6 +6624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &973937385
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7070,9 +7063,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!1 &1115233205
 GameObject:
   m_ObjectHideFlags: 0
@@ -7278,9 +7271,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &1177867203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7750,9 +7743,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 1, y: 1, z: 1}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &1373083930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7969,6 +7962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &1419077501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8175,6 +8169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &1436647910
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8306,6 +8301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &1499259056
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12117,6 +12113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &1561883638
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12949,6 +12946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &1995484979
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13077,9 +13075,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &2001488524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13156,6 +13154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 225469633}
 --- !u!23 &2075422789
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13387,9 +13386,9 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
-  ScaleMax: {x: 0.6, y: 0.6, z: 0.6}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.3, y: 0.3, z: 0.3}
+  ScaleMax: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &2131859023
 MonoBehaviour:
   m_ObjectHideFlags: 0
