@@ -44,9 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - Planets
+    - Planet
     dataSetsToActivate:
-    - Planets
+    - Planet
   videoBackground:
     clippingMode: 0
     numDivisions: 2
