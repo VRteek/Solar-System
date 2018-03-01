@@ -201,7 +201,7 @@ public class Json_Download : MonoBehaviour {
 	}
 
 	public void Add_New_Language () {
-		Application.OpenURL ("http://www.vrteek.com/");
+		Application.OpenURL ("https://cube-room.com/apps/solar-system");
 	}
 
 	void LanguageChoice (string Json, String LanguagePressed) {
@@ -227,7 +227,7 @@ public class Json_Download : MonoBehaviour {
 		for (int i = 1; i < jsonvale["data"]["languages"][LanguagePressed].Count; i++) {
 			url = Domain + jsonvale["data"]["languages"][LanguagePressed][i]["url"].ToString ();
 			// url = jsonvale["data"]["languages"][LanguagePressed][i]["url"].ToString ();
-			
+
 			size += float.Parse (jsonvale["data"]["languages"][LanguagePressed][i]["size"].ToString ());
 			sizePerFile = float.Parse (jsonvale["data"]["languages"][LanguagePressed][i]["size"].ToString ());
 			parsejson.url.Add (url);
