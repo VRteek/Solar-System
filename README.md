@@ -1,0 +1,26 @@
+
+# Immersive Solar System
+
+Educational augmented reality and virtual reality app
+
+It is a journey through space in our solar system, you will have the possibility to travel to each planet of our system and learn from them like never before.
+the experience of traveling in the solar system.
+Fun way of Exploring, Discovering and Playing with the Solar System
+
+The journey takes us through the planets: Earth, Moon, Mars, Jupiter, Saturn, Mercury, Venus, Neptune and Uranus 
+
+Includes an Agumented Reality using markers 
+
+Supports adding multiple audio guide languages 
+
+## Deployment
+
+Android devices with version 5.0 and up
+
+[Google Play Store](https://play.google.com/store/apps/details?id=com.vrteek.solar_system)
+
+## Built With
+
+*[Unity3D](https://unity3d.com/) - Unity Game Engine used as the base engine to build the app.
+
+*[VSCode](https://code.visualstudio.com/) - Visual Studio Code used in manage and writing the scripts.
