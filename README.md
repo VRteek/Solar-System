@@ -24,3 +24,10 @@ Android devices with version 5.0 and up
 *[Unity3D](https://unity3d.com/) - Unity Game Engine used as the base engine to build the app.
 
 *[VSCode](https://code.visualstudio.com/) - Visual Studio Code used in manage and writing the scripts.
+
+## Changelog
+1.1
+Fixed the AR Scene with the new markers
+
+1.0
+Initial release
