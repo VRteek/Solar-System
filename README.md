@@ -1,6 +1,6 @@
 
 # Immersive Solar System
-[Immersive Solar System](Immersive Solar System)
+[Immersive Solar System](https://cube-room.com/apps/immersive-solar-system)
 Educational augmented reality and virtual reality app
 
 It is a journey through space in our solar system, you will have the possibility to travel to each planet of our system and learn from them like never before.
