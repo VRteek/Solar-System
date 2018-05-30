@@ -9,7 +9,7 @@ Fun way of Exploring, Discovering and Playing with the Solar System
 
 The journey takes us through the planets: Earth, Moon, Mars, Jupiter, Saturn, Mercury, Venus, Neptune and Uranus 
 
-Includes an Agumented Reality using markers 
+Includes an Augmented Reality using markers 
 
 Supports adding multiple audio guide languages 
 
