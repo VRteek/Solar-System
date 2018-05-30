@@ -1,6 +1,6 @@
 
 # Immersive Solar System
-
+[Immersive Solar System](Immersive Solar System)
 Educational augmented reality and virtual reality app
 
 It is a journey through space in our solar system, you will have the possibility to travel to each planet of our system and learn from them like never before.
@@ -11,7 +11,7 @@ The journey takes us through the planets: Earth, Moon, Mars, Jupiter, Saturn, Me
 
 Includes an Augmented Reality using markers 
 
-Supports adding multiple audio guide languages 
+Supports using multiple audio guide languages using [this module](https://github.com/VRteek/Voice_Over_Localization)
 
 ## Deployment
 
